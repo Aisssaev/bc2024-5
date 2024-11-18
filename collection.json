@@ -1,0 +1,8 @@
+{
+  "post": "http://localhost:3000/write",
+  "get_note": "http://localhost:3000/notes/Test1",
+  "get_notes": "http://localhost:3000/notes",
+  "put": "http://localhost:3000/notes/Test1",
+  "delete": "http://localhost:3000/notes/Test1",
+  "get_form": "http://localhost:3000/UploadForm.html"
+}
