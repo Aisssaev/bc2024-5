@@ -7,7 +7,7 @@ const program = new Command();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// Встановлення параметрів командного рядка
+
 program
     .option('-h, --host <host>', 'address of the server', 'localhost')
     .option('-p, --port <port>', 'port of the server', 3000)
